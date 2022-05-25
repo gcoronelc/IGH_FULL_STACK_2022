@@ -1,0 +1,50 @@
+-- Parte 1: Fundamentos
+-------------------------------------------
+- GRUPO 04 - Practica 1 - 19/10/2021
+- GRUPO 03 - Practica 2 - 19/10/2021
+- GRUPO 02 - Practica 3 - 22/10/2021
+- GRUPO 01 - Practica 4 - 22/10/2021
+
+
+-- Parte 2: Orientación a Objetos
+-----------------------------------------------------------------
+- Pruebas Unitarias     --  Grupo 03 -- 26/10/21
+- Archivos Log          --  Grupo 02 -- 26/10/2021
+- Java Reflection       --  Grupo 03 -- 29/10/2021
+- Manejo de Datos Genericos (Generic) -- Grupo 01  -- 29/10/21
+
+
+-- Parte 3: JDBC (05/NOV/2021)
+-----------------------------------------------------------------
+- Asociación, Agregación y Composición: Grupo 03
+- Principios SOLID: Grupo 01
+- Expresiones Lambda y Strem: Grupo 02
+
+
+-- Parte 4: (12/NOV/2021)
+-----------------------------------------------------------------
+- Expresiones regulares: Grupo 03
+- Patron DAO: Grupo 01
+- Manejo de claves seguras en la BD Oracle: Grupo 02
+
+
+-- Parte 5: (19/NOV/2021)
+-----------------------------------------------------------------
+- Tecnología JSON: Grupo 02
+- Tecnologia YAML: Grupo 03
+- Tecnología XML: Grupo 01
+
+
+-- Parte 5: (26/NOV/2021)
+-----------------------------------------------------------------
+- Angular: Grupo 03
+- React: Grupo 02
+- Vue: Grupo 01
+
+-- Parte 5: (03/DIC/2021)
+-----------------------------------------------------------------
+- Demo Spring Boot
+- Demo Spring Boot
+- Demo Spring Boot
+
+
