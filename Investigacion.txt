@@ -7,34 +7,31 @@
 - GRUPO 05 - Practica 4
 
 
-
-
-
-
-
-
-
-
-
-
 -- Parte 2: Orientación a Objetos
 -----------------------------------------------------------------
-- Pruebas Unitarias     --  Grupo 03 -- 26/10/21
-- Archivos Log          --  Grupo 02 -- 26/10/2021
-- Java Reflection       --  Grupo 03 -- 29/10/2021
-- Manejo de Datos Genericos (Generic) -- Grupo 01  -- 29/10/21
+- Expresiones regulares (05/06): 
+- Asociación, Agregación y Composición (05/06):
+- Principios SOLID (07/06):
+- Java Reflection (07/06):    
+- Manejo de Datos Genericos (Generic) (07/06):
+
+
+
+
+
+
 
 
 -- Parte 3: JDBC (05/NOV/2021)
 -----------------------------------------------------------------
-- Asociación, Agregación y Composición: Grupo 03
-- Principios SOLID: Grupo 01
-- Expresiones Lambda y Strem: Grupo 02
+- Archivos Log 
+- Pruebas Unitarias:
+- Expresiones Lambda y Strem:
 
 
 -- Parte 4: (12/NOV/2021)
 -----------------------------------------------------------------
-- Expresiones regulares: Grupo 03
+
 - Patron DAO: Grupo 01
 - Manejo de claves seguras en la BD Oracle: Grupo 02
 
