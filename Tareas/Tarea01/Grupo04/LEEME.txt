@@ -1,0 +1,24 @@
+EQUIPO 4
+
+-------------------------------------------------------------
++ BENAVENTE VALDEZ PERCY JUSTO
++ CUIZANO CAUTIVO SILVIA YULISA
++ HUAYLINOS SUÁREZ BRUNO ANTONIO
++ ABAD MENDIZABAL ALESSANDRA ANGELA
++ LEÓN SÁNCHEZ FRANSUA MIJAIL
+-------------------------------------------------------------
+
+Los proyectos fueron divididos en proyectos consola y form.
++-----------+---------+------+
+|           | Consola | Form |
++-----------+---------+------+
+| Proyecto1 | ✓       |      |
++-----------+---------+------+
+| Proyecto2 | ✓       | ✓    |
++-----------+---------+------+
+| Proyecto3 | ✓       |      |
++-----------+---------+------+
+| Proyecto4 | ✓       | ✓    |
++-----------+---------+------+
+| Proyecto5 | ✓       | ✓    |
++-----------+---------+------+
