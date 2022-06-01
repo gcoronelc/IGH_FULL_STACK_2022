@@ -9,11 +9,11 @@
 
 -- Parte 2: Orientación a Objetos
 -----------------------------------------------------------------
-- Expresiones regulares (05/06): 
-- Asociación, Agregación y Composición (05/06):
-- Principios SOLID (07/06):
-- Java Reflection (07/06):    
-- Manejo de Datos Genericos (Generic) (07/06):
+- Expresiones regulares (05/06): GRUPO 05
+- Asociación, Agregación y Composición (05/06): GRUPO 02
+- Principios SOLID (07/06): GRUPO 04
+- Java Reflection (07/06): GRUPO 01
+- Manejo de Datos Genericos (Generic) (07/06): GRUPO 03
 
 
 
