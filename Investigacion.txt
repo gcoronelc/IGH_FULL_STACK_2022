@@ -24,9 +24,11 @@
 
 -- Parte 3: JDBC (05/NOV/2021)
 -----------------------------------------------------------------
+- Patrones Factory
 - Archivos Log 
 - Pruebas Unitarias:
 - Expresiones Lambda y Strem:
+
 
 
 -- Parte 4: (12/NOV/2021)
