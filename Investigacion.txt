@@ -15,26 +15,21 @@
 - Java Reflection (07/06): GRUPO 01
 - Manejo de Datos Genericos (Generic) (07/06): GRUPO 03
 
-
-
-
-
-
-
-
--- Parte 3: JDBC (05/NOV/2021)
+-- Parte 3: JDBC con ORACLE
 -----------------------------------------------------------------
-- Patrones Factory
-- Archivos Log 
-- Pruebas Unitarias:
-- Expresiones Lambda y Strem:
+- Patrones Factory: Martes 14/06: GRUPO 05
+- Patron DAO: Martes 14/06: GRUPO 02
+- Archivos Log: Viernes 17/06: GRUPO 01
+- Pruebas Unitarias y pruebas de covertura: Viernes 17/06: GRUPO 03
+- Expresiones Lambda y Strem: Viernes 17/06: GRUPO 04
+
+
 
 
 
 -- Parte 4: (12/NOV/2021)
 -----------------------------------------------------------------
-
-- Patron DAO: Grupo 01
+ Grupo 01
 - Manejo de claves seguras en la BD Oracle: Grupo 02
 
 
