@@ -89,6 +89,9 @@ public class CrudClienteService implements CrudServiceSpec<ClienteModel>, RowMap
 		return lista;
 	}
 
+	/*
+	 * Datos de consulta: codigo, paterno, materno, nombre
+	*/
 	@Override
 	public List<ClienteModel> readAll(ClienteModel model) {
 		throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

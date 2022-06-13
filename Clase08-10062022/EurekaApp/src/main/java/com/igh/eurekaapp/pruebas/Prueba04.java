@@ -16,8 +16,6 @@ public class Prueba04 {
 
 	public static void main(String[] args) {
 		try {
-			// Datos
-			String codigo = "00003";
 			// Proceso
 			CrudClienteService clienteService = new CrudClienteService();
 			List<ClienteModel> lista = clienteService.readAll();
