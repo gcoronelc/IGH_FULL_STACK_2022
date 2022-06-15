@@ -7,6 +7,7 @@ package com.igh.eurekaapp.view;
 
 import com.igh.eurekaapp.controller.LogonController;
 import com.igh.eurekaapp.service.LogonService;
+import com.igh.eurekaapp.util.Mensaje;
 import javax.swing.JOptionPane;
 
 /**
@@ -23,6 +24,7 @@ public class LogonView extends javax.swing.JDialog {
     public LogonView(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+		  this.setLocationRelativeTo(null);
     }
 
     /** This method is called from within the constructor to
@@ -162,7 +164,7 @@ public class LogonView extends javax.swing.JDialog {
 			this.dispose();
 			MainView.main(null);
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, "Error.");
+			Mensaje.error(this, e.getMessage());
 		}
    }//GEN-LAST:event_btnIngresarActionPerformed
 

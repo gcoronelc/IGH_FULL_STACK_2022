@@ -1,9 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/MDIApplication.java to edit this template
- */
-
 package com.igh.eurekaapp.view;
+
+import com.igh.eurekaapp.model.EmpleadoModel;
+import com.igh.eurekaapp.util.Session;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -18,7 +16,16 @@ public class MainView extends javax.swing.JFrame {
     /** Creates new form MainView */
     public MainView() {
         initComponents();
+		  establecerTitulo();
+		  this.setLocationRelativeTo(null);
+		  this.setExtendedState(MAXIMIZED_BOTH);
     }
+	 
+	 private void establecerTitulo(){
+		 EmpleadoModel model = (EmpleadoModel) Session.get("usuario");
+		 String titulo = "EUREKA APP (Usuario:" + model.getUsuario() + ")";
+		 this.setTitle(titulo);
+	 }
 
     /** This method is called from within the constructor to
      * initialize the form.

@@ -2,6 +2,7 @@ package com.igh.eurekaapp.controller;
 
 import com.igh.eurekaapp.model.EmpleadoModel;
 import com.igh.eurekaapp.service.LogonService;
+import com.igh.eurekaapp.util.Session;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -15,6 +16,7 @@ public class LogonController {
 
 	public void validarUsuario(String usuario, String clave){
 		LogonService logonService = new LogonService();
-		logonService.validarUsuario(usuario, clave);
+		EmpleadoModel model = logonService.validarUsuario(usuario, clave);
+		Session.put("usuario", model); // Guarda el dato del usuario en la sesión.
 	}
 }
