@@ -25,10 +25,10 @@
 
 -- Parte 4: JAVA WEB
 -----------------------------------------------------------------
-- HTML 5 Principales caracteristicas:
-- Tecnología JSON: 
-- Desarrollo de un CRUD con BootStrap, JSON y AJAX:
-- Desarrollo de un CRUD con BootStrap, JSON, AJAX y Store Procedure:
+- HTML 5 Principales caracteristicas: GRUPO 1
+- Tecnología JSON: GRUPO 2
+- Desarrollo de un CRUD con BootStrap, JSON y AJAX: GRUPO 4
+- Desarrollo de un CRUD con BootStrap, JSON, AJAX y Store Procedure: GRUPO 3
 
 
 

@@ -209,6 +209,9 @@
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Exportar a excel."/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExportarExcelActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnExpotarPDF">
           <Properties>
@@ -217,6 +220,9 @@
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Exportar a SD"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExpotarPDFActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
