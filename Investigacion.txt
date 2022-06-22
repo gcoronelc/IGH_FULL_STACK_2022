@@ -23,21 +23,24 @@
 - Pruebas Unitarias y pruebas de covertura: Viernes 17/06: GRUPO 03
 - Expresiones Lambda y Strem: Viernes 17/06: GRUPO 04
 
-
-
-
-
-
-
--- Parte 4: (12/NOV/2021)
+-- Parte 4: JAVA WEB
 -----------------------------------------------------------------
- Grupo 01
+- HTML 5 Principales caracteristicas:
+- Tecnología JSON: 
+- Desarrollo de un CRUD con BootStrap, JSON y AJAX:
+- Desarrollo de un CRUD con BootStrap, JSON, AJAX y Store Procedure:
+
+
+
+
+
+
 - Manejo de claves seguras en la BD Oracle: Grupo 02
 
 
 -- Parte 5: (19/NOV/2021)
 -----------------------------------------------------------------
-- Tecnología JSON: Grupo 02
+
 - Tecnologia YAML: Grupo 03
 - Tecnología XML: Grupo 01
 
