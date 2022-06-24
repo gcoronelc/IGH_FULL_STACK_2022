@@ -1,0 +1,9 @@
+netstat -aon | findstr 8080
+
+Consultar el PDI.
+Luego Administrador de tareas, Vista detalles, buscar el PDI.
+
+Tambien se puede usar este comando en consola:
+tasklist /fi "pid eq 22728"
+
+22728 es el PDI.
