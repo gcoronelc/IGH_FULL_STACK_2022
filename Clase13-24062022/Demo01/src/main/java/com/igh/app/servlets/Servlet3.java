@@ -17,7 +17,7 @@ public class Servlet3 extends HttpServlet {
 		PrintWriter pw = response.getWriter();
 		pw.println("<HTML><HEAD><TITLE>Leyendo parámetros</TITLE></HEAD>");
 		pw.println("<BODY");
-		pw.println("<H2>Que viva la programación.</H2>");
+		pw.println("<H2>Que viva la programación con Java.</H2>");
 		pw.println("</BODY></HTML>");
 		pw.close();
 	}
