@@ -8,10 +8,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+
+import com.igh.app.model.VentaModel;
 
 @Controller
 public class HomeController {
@@ -78,6 +81,32 @@ public class HomeController {
 		mav.addObject("precio",precio);
 		mav.addObject("cantidad",cantidad);
 		mav.addObject("importe", importe);
+		return mav;
+	}
+	
+	@RequestMapping(value = "/venta.proceso5", method = RequestMethod.GET)
+	public ModelAndView venta5(@RequestParam double precio, @RequestParam(value="cant", required = false) Integer cantidad) {
+		// La variables principal
+		ModelAndView mav = new ModelAndView("venta2");
+		// Proceso
+		cantidad = (cantidad==null)?0:cantidad;
+		double importe = precio * cantidad;
+		// Reporte
+		mav.addObject("precio",precio);
+		mav.addObject("cantidad",cantidad);
+		mav.addObject("importe", importe);
+		return mav;
+	}
+	
+	@RequestMapping(value = "/venta.proceso6", method = RequestMethod.GET)
+	public ModelAndView venta6(@ModelAttribute VentaModel bean) {
+		// La variables principal
+		ModelAndView mav = new ModelAndView("venta3");
+		// Proceso
+		double importe = bean.getPrecio() * bean.getCantidad();
+		bean.setImporte(importe);
+		// Reporte
+		mav.addObject("bean",bean);
 		return mav;
 	}
 
