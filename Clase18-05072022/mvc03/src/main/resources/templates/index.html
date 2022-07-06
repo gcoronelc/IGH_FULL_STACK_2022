@@ -39,5 +39,12 @@
 		</tbody>
 	</table>
 
+	<div th:if="${op == 1}">
+		<h2>Eres un Ganador</h2>
+	</div>
+
+	<th:block th:if="${op == 1}">
+		<h2>Todos somos ganadores</h2>
+	</th:block>
 </body>
 </html>
