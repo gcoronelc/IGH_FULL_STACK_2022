@@ -22,20 +22,28 @@ public class EmpleadoServiceImpl implements EmpleadoService{
 
 	@Override
 	public Empleado buscarPorId(Long id) {
-		// TODO Auto-generated method stub
-		return null;
+		return empleadoRepository.findById(id).orElse(null);
 	}
 
 	@Override
 	public Empleado grabar(Empleado empleado) {
-		// TODO Auto-generated method stub
-		return null;
+		return empleadoRepository.save(empleado);
 	}
 
 	@Override
 	public void eliminar(Long id) {
-		// TODO Auto-generated method stub
-		
+		empleadoRepository.deleteById(id);
+	}
+
+	@Override
+	public List<Empleado> buscarPorNombre(String nombre, int caso) {
+		List<Empleado> lista;
+		if(caso==1) {
+			lista = empleadoRepository.findByNombreLike(nombre);
+		} else {
+			lista = empleadoRepository.findByNombreContaining(nombre);
+		}
+		return lista;
 	}
 
 }

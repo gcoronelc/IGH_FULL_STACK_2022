@@ -14,4 +14,5 @@ public interface EmpleadoService {
 	
 	void eliminar(Long id);
 	
+	List<Empleado> buscarPorNombre(String nombre, int caso);
 }
