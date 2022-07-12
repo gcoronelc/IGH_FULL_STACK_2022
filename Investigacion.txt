@@ -39,25 +39,13 @@
 - Spring Security: GRUPO 04
 
 
-
-
-
--- Parte 5: (19/NOV/2021)
+-- Parte 6: Spring Rest
 -----------------------------------------------------------------
+Grupo 1: Spring Rest con Angular
+Grupo 2: Spring Rest con React
+Grupo 3: Spring MVC - Thymrleaf
+Grupo 4: Spring MVC - JSP
+
+Pueden usar Spring Data JDBC o Spring Data JPA
 
 
- Grupo 01
-
-
--- Parte 5: (26/NOV/2021)
------------------------------------------------------------------
-
-
--- Parte 5: (03/DIC/2021)
------------------------------------------------------------------
-- Demo Spring Boot
-- Demo Spring Boot
-- Demo Spring Boot
-
-- Manejo de claves seguras en la BD Oracle: Grupo 02
-- Tecnologia YAML: Grupo 03
