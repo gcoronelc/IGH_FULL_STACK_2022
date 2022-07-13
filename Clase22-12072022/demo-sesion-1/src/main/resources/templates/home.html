@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>DEMO DE SESION HTTPSESSION</h1>
+	
+	<h2>Ingreso de Nueva Persona</h2>
+	<form method="post" th:action="@{/grabar}">
+		<label>Nombre:</label>
+		<input type="text" name="nombre">	
+		<input type="submit" value="Enviar">
+	</form>
+	
+	<h2>Listado de Personas</h2>
+	<div>
+		<th:block th:each="item,posicion:${session.listado}">
+			<p>
+				<span th:text="${item}"></span>
+				<a th:href="@{/eliminar1/}+${item}">Eliminar por nombre</a>
+				<a th:href="@{/eliminar2/}+${posicion.index}">Eliminar por indice</a>
+			</p>
+		</th:block>
+	</div>
+	
+	<h2>Limpiar Lista</h2>
+	<a th:href="@{/resetear}" th:text="Limpiar"></a>
+</body>
+</html>
