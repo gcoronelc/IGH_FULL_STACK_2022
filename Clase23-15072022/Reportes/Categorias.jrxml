@@ -33,7 +33,7 @@
 				<textElement textAlignment="Center">
 					<font size="18"/>
 				</textElement>
-				<text><![CDATA[LISTADO DE CATEGORIAS]]></text>
+				<text><![CDATA[LISTADO DE CATEGORIAS 2022]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="0" width="259" height="30" forecolor="#0066CC" uuid="894cf682-53c6-4d7c-8c3b-02b1293ac3e4"/>
