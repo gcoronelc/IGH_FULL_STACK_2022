@@ -6,4 +6,6 @@ import com.igh.app.entity.Categoria;
 
 public interface CategoriaRepository extends CrudRepository<Categoria, Long>{
 
+	
+	
 }
