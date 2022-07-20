@@ -46,6 +46,7 @@ Grupo 2: Spring Rest con React
 Grupo 3: Spring MVC - Thymrleaf
 Grupo 4: Spring MVC - JSP
 
+
 Pueden usar Spring Data JDBC o Spring Data JPA
 
 
